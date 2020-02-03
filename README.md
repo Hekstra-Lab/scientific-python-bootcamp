@@ -1,33 +1,63 @@
-# scientific-python-bootcamp
+# outline
 
+### Day 1 (Ian):
 
-## outline
+The focus of this day is to learn the basic language of scientific computing, working with numpy arrays. Building all the low-level skills that we feel are necessary for interacting with real world problems.
 
-### day1 (Ian)
+-   Installing python libraries
 
-1. Installing things
-2. Jupyter basics
-3. Functions on arrays
-4. Indexing/selecting data
-5. plotting
-6. Troubleshooting
-	- Reading error messages
-	- googling
-7. 
+-   Basic of working in Jupyter notebooks
 
-### day2 (John)
+-   Working with arrays of data (bulk of the day is this)
 
-1. ODE 
-	- More numpy ops & plotting
-	- scipy
-2. Regression
-	- linear (scipy & scikit)
-	- nonlinear (GLM, Min)
+    -   Shapes of arrays + data types
 
-### day3
+    -   Performing mathematical operations (e.g. sin, multiply, divide, mean, stddev)
 
-1. Abstraction
-	- Writing functions + put in files
-	- Clustering (low dim)
-	- Images
-	- Requests
+    -   Indexing and selecting data based on conditions (Very important!)
+
+-   Very basic plotting
+
+    -   Use as a tool for above
+
+    -   Working with your data to select only the interesting data points
+
+-   How to troubleshoot
+
+    -   How to google your problems
+
+        -   stackoverflow
+
+    -   How to read error messages
+
+-   Finish with simulating a random walk, plotting the trajectory
+    -   Will use various numpy functions including random sampling
+    -   Slightly more advanced plotting
+
+### Day 2 (John):
+
+Here we start exploring more advanced applications. We hope to avoid as much as possible teaching the underlying math and instead focus on the python skills as the goal is to build python skills that can be used in the context of a class that will teach the math:
+
+-   Writing functions that work on numpy arrays
+
+-   Simulating Ordinary Differential Equations
+
+    -   learn more about numpy and plotting
+
+    -   learn about useful scipy functions
+
+    -   Plotting multidimensional datasets
+
+    -   End goal is to simulate + plot rabbits and foxes system of ODE
+
+### Day 3 (Ian + John):
+
+This day we will learn about abstraction (how to reuse your code), linear algebra and working with data. The current plan for day 3 is below but we are open to requests for specific applications:
+
+-   How to avoid copy pasting code
+-   Simulate Candy Land using Markov Chains
+    -   Learn about linear algebra in python
+-   Working with data + basic usage of sklearn
+    -   Loading data
+    -   Clustering
+    -   Regression
