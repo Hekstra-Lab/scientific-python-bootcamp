@@ -55,9 +55,5 @@ Here we start exploring more advanced applications. We hope to avoid as much as 
 This day we will learn about abstraction (how to reuse your code), linear algebra and working with data. The current plan for day 3 is below but we are open to requests for specific applications:
 
 -   How to avoid copy pasting code
--   Simulate Candy Land using Markov Chains
-    -   Learn about linear algebra in python
--   Working with data + basic usage of sklearn
-    -   Loading data
-    -   Clustering
-    -   Regression
+-   PCA
+-   Flex time for talking about whatever students want to cover
