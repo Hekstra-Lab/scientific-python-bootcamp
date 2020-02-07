@@ -1,10 +1,10 @@
-# outline
+# Outline
 
-### Day 1 (Ian):
+### Day 1:
 
-The focus of this day is to learn the basic language of scientific computing, working with numpy arrays. Building all the low-level skills that we feel are necessary for interacting with real world problems.
+The focus of this day is to install the core libraries for scientific computing and to learn the basics of working with numpy arrays. Building all the low-level skills that we feel are necessary for interacting with real world problems.
 
--   Installing python libraries
+-   Installing python libraries with Andaconda
 
 -   Basic of working in Jupyter notebooks
 
@@ -18,42 +18,34 @@ The focus of this day is to learn the basic language of scientific computing, wo
 
 -   Very basic plotting
 
-    -   Use as a tool for above
+    -   Plotting mathematical functions 
 
-    -   Working with your data to select only the interesting data points
+    -   Use indexing to select only the interesting data points
 
 -   How to troubleshoot
 
     -   How to google your problems
 
-        -   stackoverflow
-
     -   How to read error messages
 
--   Finish with simulating a random walk, plotting the trajectory
-    -   Will use various numpy functions including random sampling
-    -   Slightly more advanced plotting
+-   Application: Simulating a random walk
 
-### Day 2 (John):
 
-Here we start exploring more advanced applications. We hope to avoid as much as possible teaching the underlying math and instead focus on the python skills as the goal is to build python skills that can be used in the context of a class that will teach the math:
+### Day 2:
+
+Here we start exploring more advanced applications. We will not dwell on the underlying math and instead will focus on the python skills necessary to solve different problems.
 
 -   Writing functions that work on numpy arrays
 
--   Simulating Ordinary Differential Equations
+-   Review of numpy arrays, plotting, and indexing
 
-    -   learn more about numpy and plotting
+-   Solving Ordinary Differential Equations
 
-    -   learn about useful scipy functions
 
-    -   Plotting multidimensional datasets
+### Day 3:
 
-    -   End goal is to simulate + plot rabbits and foxes system of ODE
 
-### Day 3 (Ian + John):
+-   Making high quality plots for presentations, papers, and other means of sharing your work 
+-   Introduction to principal component analysis with an application to financial data
 
-This day we will learn about abstraction (how to reuse your code), linear algebra and working with data. The current plan for day 3 is below but we are open to requests for specific applications:
-
--   How to avoid copy pasting code
--   PCA
--   Flex time for talking about whatever students want to cover
+After this relatively short day, the instructors will hold a sort of office hour to answer any questions from the course and provide suggestions for any other applications that students have. 
